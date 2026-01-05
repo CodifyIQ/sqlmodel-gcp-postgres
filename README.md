@@ -1,6 +1,6 @@
 # sqlmodel-gcp-postgres
 
-[![PyPI](https://img.shields.io/pypi/v/sqlmodel-gcp-postgres.svg)](https://pypi.org/project/sqlmodel-gcp-postgres/)
+[![PyPI](https://img.shields.io/pypi/v/sqlmodel-gcp-postgres)](https://pypi.org/project/sqlmodel-gcp-postgres/)
 [![Python 3.12+](https://img.shields.io/badge/python-3.12%2B-blue)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
