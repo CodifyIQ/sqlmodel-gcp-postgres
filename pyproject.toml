@@ -1,6 +1,6 @@
 [project]
 name = "sqlmodel-gcp-postgres"
-version = "1.0.0"
+version = "1.0.1"
 description = "SQLModel ORM integration for Google Cloud SQL PostgreSQL with multi-database support"
 readme = "README.md"
 license = { text = "MIT" }
@@ -24,6 +24,11 @@ dependencies = [
     "loguru>=0.7.0",
     "sqlmodel>=0.0.20",
 ]
+
+[project.urls]
+Homepage = "https://github.com/CodifyIQ/sqlmodel-gcp-postgres"
+Repository = "https://github.com/CodifyIQ/sqlmodel-gcp-postgres"
+Issues = "https://github.com/CodifyIQ/sqlmodel-gcp-postgres/issues"
 
 [build-system]
 requires = ["hatchling"]
