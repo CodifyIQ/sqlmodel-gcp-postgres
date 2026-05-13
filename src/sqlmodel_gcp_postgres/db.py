@@ -75,6 +75,7 @@ def _create_engine() -> Engine:
         return create_engine(
             "postgresql+pg8000://",
             creator=_get_connection,
+            pool_pre_ping=True,
         )
     else:
         # Use standard DB_URL for local deployment and automated testing
@@ -85,7 +86,7 @@ def _create_engine() -> Engine:
             )
             return None
         else:
-            return create_engine(db_url)
+            return create_engine(db_url, pool_pre_ping=True)
 
 
 engine = _create_engine()
